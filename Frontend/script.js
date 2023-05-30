@@ -54,9 +54,7 @@ const sendMessage = async () => {
 
   const astrologerMessage = document.createElement("div");
   astrologerMessage.classList.add("chat-message");
-  astrologerMessage.innerHTML = `
-    <p class='assistant'>${data.assistant}</p>
-  `;
+  astrologerMessage.innerHTML = `<p class='assistant'>${data.assistant}</p>`;
   chatBox.appendChild(astrologerMessage);
 };
 

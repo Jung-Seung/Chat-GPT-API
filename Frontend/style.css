@@ -69,9 +69,11 @@ body {
   align-items:center;
 }
 
-.intro-container img{
+.intro-container > img{
   width:80%;
   min-width:300px;
+  height: 80%;
+  min-height: 300px;;
 }
 
 #loader{
